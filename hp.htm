@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <title>【E排客】人氣店的排隊預約網站</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="kyart.com.tw">
+    <meta name="description" content="">
+    <meta name="keywords" content="【E排客】人氣店的排隊預約網站" />
+    <meta name="fb_admins_meta_tag" content="【E排客】人氣店的排隊預約網站" />
+    <meta name="application-name" content="【E排客】人氣店的排隊預約網站" />
+    <meta property="og:title" content="【E排客】人氣店的排隊預約網站" />
+    <meta property="og:description" content="【E排客】人氣店的排隊預約網站" />
+    <meta property="og:site_name" content="【E排客】人氣店的排隊預約網站" />
+    <meta property="og:image" content="assets/img/ico/largetile.png" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta name="msapplication-TileColor" content=" #90c31f" />
+    <meta name="msapplication-square70x70logo" content="assets/img/ico/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="assets/img/ico/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/img/ico/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="assets/img/ico/largetile.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/ico/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/plugins/materialize/materialize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootsnav/bootsnav.css">
+    <link rel="stylesheet" href="assets/css/icomoon/style.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/plugins/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/plugins/scrollbar/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_rs.css">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="mainmenu" data-spy="scroll" data-target="#myScrollspy" data-offset="160">
+    <!--#include virtual="assets/ssi/nav.shtml"-->
+    <div id="myScrollspy" class="inxdeNav">
+        <ul class="nav nav-pills nav-stacked inxdeNavUl">
+            <li><a href="#searchBox" title=""><span class="icon-search"></span><em>搜尋</em></a></li>
+            <li><a href="#Features" title=""><span class="far fa-newspaper"></span><em>特別企劃</em></a></li>
+            <li><a href="#hot" title=""><span class="fab fa-hotjar"></span><em>人氣訂位餐廳</em></a></li>
+            <li><a href="#keyword" title=""><span class="fas fa-tag"></span><em>熱門關鍵字</em></a></li>
+            <li><a href="#comment" title=""><span class="far fa-comment-alt"></span><em>新鮮評論</em></a></li>
+        </ul>
+    </div>
+    <section id="searchBox">
+        <div class="silderDown">
+            <a href="#Features" title="Features"><span class="icon-down-arrow"></span></a>
+        </div>
+        <div class="silderBanner owl-carousel owl-theme">
+            <div class="silderItem">
+                <img src="assets/img/index/banner.jpg" alt="圖片說明" class="silderImg">
+                <div class="silderInfo">
+                    <h1><a href="" title="">為您找尋最美味的餐廳</a></h1>
+                    <h5><a href="" title="">慶祝特別的日子<br>與對的人分享美食</a></h5>
+                    <h6><a href="" title="">史大華麻辣精緻鴛鴦鍋</a></h6>
+                </div>
+            </div>
+            <div class="silderItem">
+                <img src="https://1.bp.blogspot.com/-hNLoiZVccMI/WqLl87miKoI/AAAAAAAAASA/ykA9ajf4ZLIfJSMOLXe2ebpaE96N22YWACLcBGAs/w800-h800/10-bingeworthy-thanksgiving-foods-family-dinner-596802262-GMVozd.jpg" alt="圖片說明" class="silderImg">
+                <div class="silderInfo">
+                    <h1><a href="" title="">我是標題字h1</a></h1>
+                    <h5><a href="" title="">盡看而品日產如器中傷、相就了大因一一面</a></h5>
+                    <h6><a href="" title="">女候的靜續了，我法一上要</a></h6>
+                </div>
+            </div>
+            <div class="silderItem">
+                <img src="https://dummyimage.com/1920x1080/555/fff" alt="圖片說明" class="silderImg">
+                <div class="silderInfo ">
+                    <h1><a href="" title="">說果覺興另選語我h1</a></h1>
+                    <h5><a href="" title="">國其車趣？定看聽法運<br>加河太也相就了大因告黃火一界的</a></h5>
+                    <h6><a href="" title="">的國？然新是來；河法高存健格的早的</a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Features">
+        <div class="indexTitle">
+            <a href="" title="特別企劃">
+                <div class="iconStyle">
+                    <span class="far fa-newspaper"></span>
+                </div>
+                <div class="titleIA">特別企劃</div>
+                <div class="titleIB">FEATURES</div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="ifeatureBox">
+                <div class="iFeatureList featureEvent">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>EVENT</li>
+                                <li>季節特刊</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>車……病能一利我遊參實漸他信童舉話能也式候會。安說不場心雖處：後女商我電另落是華</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="iFeatureList featureFeature">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/bbb/555" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>FEATURE</li>
+                                <li>流行</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>展本立性不已談主物油錢構良工毛力山到極形於一生細洲是味視國只裡決個下商候下無來那目政服過許的始照而該臺中。天南看待等。要樣制？帶</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="iFeatureList featureEvent">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>EVENT</li>
+                                <li>季節特刊</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>夏天就是要吃冰！絕不能錯過期間限定健康好吃的優格冰品~</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="iFeatureList featureEvent">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/888/fff" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>EVENT</li>
+                                <li>季節特刊</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>作、樣決策太果心、林一很下強度河化的：小術好卻電代定父心性回無而聽，聯大人條臺一種，到走</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="iFeatureList featureEvent">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>EVENT</li>
+                                <li>季節特刊</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>夏天就是要吃冰！絕不能錯過期間限定健康好吃的優格冰品~</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="iFeatureList featurePlan">
+                    <a href="" title="連結說明">
+                        <div class="iFeatureImg imgholder">
+                            <img src="https://dummyimage.com/400x300/666/ddd" alt="">
+                        </div>
+                        <div class="iFeatureInfo">
+                            <ul>
+                                <li>PLAN</li>
+                                <li>四國之旅</li>
+                                <li>Vol.093</li>
+                                <li>2018.12.12</li>
+                            </ul>
+                            <h2>動各竟生絕只是型另古式在計而西加種經趣會！又意因無外後日友了不結絕傳出裡力車</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="indexBtnBox">
+                    <a class="btn indexBtn waves-effect" title="看更多特別企劃" href="">看更多<em>特別企劃</em></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot">
+        <div class="indexTitle">
+            <a href="" title="人氣訂位餐廳">
+                <div class="iconStyle">
+                    <span class="fab fa-hotjar"></span>
+                </div>
+                <div class="titleIA">人氣訂位餐廳</div>
+                <div class="titleIB">HOT</div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="rowC">
+                <div class="indexHotBox">
+                    <div class="hotSilder owl-carousel owl-theme">
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">1</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/ddd/555" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>藏壽司</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="4.5"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>王大明</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             這是我最愛來的一間店,雖然排隊很長,但井然有序也很快!<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">2</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>餃子の王將</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="4.5"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>王大明</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             這是我最愛來的一間店,雖然排隊很長,但井然有序也很快!<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">3</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/bbb/555" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>合點壽司</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="5"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/160x200/888/fff" alt="">
+                                            </div>
+                                            <h6>不都指紀要心太車始被光</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                            始場布出一也法人年了省水久進此選一續充風這總題客老速高答養度失<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">4</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/777/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>一蘭拉麵</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="3"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>王大明</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             過我單護賽領立化王層民指，美運臺股不者，於八主會麼具是說<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">5</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>樣決策太果心、林一很下強度河</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="3"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>王大明</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                            衣工個我高外一，知影構物必父共<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">6</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>難度然也們多招些了雜不夫子動各竟</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="3"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>的了了來條世經集象上</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             這是我最愛來的一間店,雖然排隊很長,但井然有序也很快!<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">7</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>談主物油錢構良工毛力山到極形於一生細洲</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="3"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>半容電童國</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             這是我最愛來的一間店,雖然排隊很長,但井然有序也很快!<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indexHotItem">
+                            <a href="" title="">
+                                <div class="inumber">8</div>
+                                <div class="indexHotImg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="圖片說明">
+                                </div>
+                                <div class="indexHotInfo">
+                                    <h2>談主物油錢構</h2>
+                                    <div class="hotInfoLine">
+                                        <div class="ratebox rateStyle" data-id="1" data-rating="3"></div>
+                                        <ul class="LInfoCList">
+                                            <li><span class="icon-dialoge"></span><em>150</em></li>
+                                            <li><span class="far fa-heart"></span>230</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tagList">
+                                        <li>#壽司</li>
+                                        <li>#迴轉壽司</li>
+                                    </ul>
+                                    <div class="ihotTalk">
+                                        <div class="ihotLeftImg">
+                                            <div class="ihotLeftImgBox">
+                                                <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                            </div>
+                                            <h6>王大明</h6>
+                                        </div>
+                                        <div class="ihotRightTxt">
+                                            <em><span class="icon-toptext-quotes"></span>
+                                             這是我最愛來的一間店,雖然排隊很長,但井然有序也很快!<span class="icon-downtext-quotes">
+                                        </span>
+                                        </em>
+                                            <em class="ihotdate">-2018.07.01</em>
+                                        </div>
+                                    </div>
+                                    <div class="ihotBook"><span class="fab fa-hotjar"></span>5分鐘前有10人訂位
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="indexBtnBox">
+                        <a class="btn indexBtn waves-effect" title="看更多特別企劃" href="">看更多<em>人氣餐廳</em></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="keyword">
+        <div class="indexTitle">
+            <a href="" title="特別企劃">
+                <div class="iconStyle">
+                    <span class="fas fa-tag"></span>
+                </div>
+                <div class="titleIA">熱門關鍵字</div>
+                <div class="titleIB">HOT KEYWORD</div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="indexKeyBox">
+                <div class="indexKeyLeft">
+                    <div class="indexKeyBig">
+                        <ul class="indexkeyPic ">
+                            <li>
+                                <a href="" title="商場•OUTLET">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/666/fff" alt="">
+                                        <span> 商場•OUTLET</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="indexKeySmall">
+                        <ul class="indexkeyPic ">
+                            <li>
+                                <a href="" title="和食">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/555/fff" alt="">
+                                        <span>和食</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="洋食">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/888/fff" alt="">
+                                        <span>洋食</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="中華">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/555/ddd" alt="">
+                                        <span>中華</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="亞洲美食">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/eee/555" alt="">
+                                        <span>亞洲美食</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="咖啡廳甜點">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/555/fff" alt="">
+                                        <span>咖啡廳甜點</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="酒類">
+                                    <div class="indexImg imgholder">
+                                        <img src="https://dummyimage.com/300x300/555/fff" alt="">
+                                        <span>酒類</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="indexKeyRight">
+                    <ul class="indexkeyTxt">
+                        <li class=""><a href="" title="台北市">#台北市</a></li>
+                        <li class=""><a href="" title="吃到飽">#吃到飽</a></li>
+                        <li class=""><a href="" title="火鍋">#火鍋</a></li>
+                        <li class=""><a href="" title="自助式">#自助式</a></li>
+                        <li class=""><a href="" title="朋友聚餐">#朋友聚餐</a></li>
+                        <li class=""><a href="" title="士林夜市">#士林夜市</a></li>
+                        <li class=""><a href="" title="路透攤">#路透攤</a></li>
+                        <li class=""><a href="" title="小吃">#小吃</a></li>
+                        <li class=""><a href="" title="高cp值">#高cp值</a></li>
+                        <li class=""><a href="" title="居酒屋">#居酒屋</a></li>
+                        <li class=""><a href="" title="遊客必吃">#遊客必吃</a></li>
+                        <li class=""><a href="" title="老饕最愛">#老饕最愛</a></li>
+                        <li class=""><a href="" title="花園夜市">#花園夜市</a></li>
+                        <li class=""><a href="" title="西門町美食">#西門町美食</a></li>
+                        <li class=""><a href="" title="排隊也要吃">#排隊也要吃</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="comment">
+        <div class="indexTitle">
+            <a href="" title="新鮮評論">
+                <div class="iconStyle">
+                    <span class="far fa-comment-alt"></span>
+                </div>
+                <div class="titleIA">新鮮評論</div>
+                <div class="titleIB">COMMENT</div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="indexCom">
+                <ul class="indexComList">
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>王大明</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃，來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>藏壽司</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>李佳佳李佳佳</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                該晚首期所我生資候我告的生的清子成思愛失廣是年基重<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>餃子の王將餃子の王將餃子の王將餃子の王將</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>王大明</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃，來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>藏壽司</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>李佳佳李佳佳</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                該晚首期所我生資候我告的生的清子成思愛失廣是年基重<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>餃子の王將</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>李佳佳李佳佳</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                該晚首期所我生資候我告的生的清子成思愛失廣是年基重<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>餃子の王將</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="indexComblank"></div>
+                        <a href="" title="項目連結" class="indexComTxt">
+                            <div class="iComPicLeft">
+                                <div class="iComPic">
+                                    <img src="https://dummyimage.com/100x200/888/fff" alt="">
+                                </div>
+                                <h6>王大明</h6>
+                            </div>
+                            <div class="iComInfoCentr">
+                                <div class="icomLine">
+                                    <div class="ratebox rateStyle" data-id="1" data-rating="5"></div><span class="starPint">5顆星評價</span>
+                                </div>
+                                <h5>
+                                來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃，來台北必吃，味道超級美味，雖然每次排隊隊伍都很長，但井然有序，也很快就排到~真是不錯來台北必吃<span>...<em>看更多</em></span>
+                                </h5>
+                            </div>
+                            <div class="iComInfoRight">
+                                <div class="iComimg imgholder">
+                                    <img src="https://dummyimage.com/400x300/555/fff" alt="">
+                                </div>
+                                <h2>藏壽司</h2>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="indexBtnBox">
+                <a class="btn indexBtn waves-effect" title="展開更多評價" href="">展開更多<em>評價</em></a>
+            </div>
+        </div>
+    </section>
+    <!--#include virtual="assets/ssi/footer.shtml"-->
+    <script src="assets/js/jquery-1.11.3.js"></script>
+    <script src="assets/plugins/materialize/materialize.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootsnav/bootsnav.js"></script>
+    <script src="assets/plugins/owl/owl.carousel.min.js"></script>
+    <script src="assets/plugins/rating/jquery.barrating.js"></script>
+    <script src="assets/plugins/rating/raterater.jquery.js"></script>
+    <script src="assets/plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/plugins/treeview/hummingbird-treeview.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+    { lang: 'zh-TW' }
+    </script>
+    <script>
+    $('.silderBanner').owlCarousel({
+        animateOut: 'fadeOut',
+        animateIn: 'zoomIn',
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        dots: true
+    });
+    </script>
+    <script>
+    $(".silderDown a").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: $($(this).attr("href")).offset().top - 160
+        }, 1000);
+    });
+
+    $(".inxdeNavUl a").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: $($(this).attr("href")).offset().top - 100
+        }, 1000);
+    });
+    </script>
+    <script>
+    $(function() {
+        var owl = $('.hotSilder'),
+            owlOptions = {
+                loop: true,
+                items: 4,
+                dots: false,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                margin: 20,
+                autoplayHoverPause: true,
+                responsive: {
+                    640: {
+                        items: 2,
+                    },
+                    1024: {
+                        items: 3,
+                    },
+                    1200: {
+                        items: 4,
+                    }
+
+                }
+
+            };
+
+        if ($(window).width() > 640) {
+            var owlActive = owl.owlCarousel(owlOptions);
+        } else {
+            owl.addClass('off');
+        }
+
+        $(window).resize(function() {
+            if ($(window).width() > 640) {
+                if ($('.hotSilder').hasClass('off')) {
+                    var owlActive = owl.owlCarousel(owlOptions);
+                    owl.removeClass('off');
+                }
+            } else {
+                if (!$('.hotSilder').hasClass('off')) {
+                    owl.addClass('off').trigger('destroy.owl.carousel');
+                    owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
+                }
+            }
+        });
+
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,672 @@
+@media screen and (min-width:768px) {
+}
+
+@media screen and (min-width:993px) {
+}
+
+@media screen and (min-width:1200px) {
+}
+
+@media screen and (min-width:1400px) {
+}
+
+@media screen and (max-width:1400px) {
+    .silderItem .silderImg {
+        height: 660px;
+    }
+
+    .silderInfo {
+        top: 20%;
+    }
+
+    .silderInfo h1 a {
+        font-size: 1.4em
+    }
+
+    .silderInfo h5 a {
+        font-size: 1.6em;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+}
+
+@media screen and (max-width:1199px) {
+    .searchLeft .sImg {
+        width: 100%;
+        float: none;
+    }
+
+    .searchLeft .sImg img:nth-of-type(1),
+    .searchLeft .sImg img:nth-of-type(2),
+    .searchLeft .sImg img:nth-of-type(3) {
+        width: 33%;
+        height: 110px;
+        border: none;
+    }
+
+    .searchLeft .sImg img:nth-of-type(2) {
+        border-right: 2px solid #FFF;
+        border-left: 2px solid #FFF;
+    }
+
+    .searchLeft .leftInfo {
+        padding: 10px 0 0 0;
+        width: 100%;
+        float: none;
+    }
+
+    .rightBox .rightHtop .htopLeft {
+        float: none;
+        width: 100%;
+    }
+
+    .rightHtop .htopRight {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+
+    .silderItem .silderImg {
+        height: 560px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .footerLogo img {
+        width: 100px;
+    }
+
+    .footerLogo {
+        width: 120px;
+    }
+
+    .footerList {
+        width: calc(100% - 120px);
+    }
+
+    .inxdeNav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .attr-nav {
+        position: absolute;
+        right: 60px;
+    }
+
+    .attr-nav > ul {
+        padding: 0;
+        margin: 0 -30px -7px 0;
+    }
+
+    .attr-nav > ul > li.dropdown > a.dropdown-toggle:before {
+        display: none;
+    }
+
+    .attr-nav > ul > li.dropdown ul.dropdown-menu {
+        margin-top: 2px;
+        margin-left: 55px;
+        width: 250px;
+        left: -250px;
+        border-top: solid 5px;
+    }
+
+    .top-search .container {
+        padding: 0 45px;
+    }
+
+    .navbar-brand,
+    .fixedHeader .navbar-brand {
+        padding: 12px 15px;
+    }
+
+    .attr-nav>ul {
+        padding: 0px 5px 0 0
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        top: 2px;
+    }
+
+    .fixedHeader nav {
+        height: auto;
+    }
+
+    .navbar-nav .eng {
+        display: none;
+    }
+
+    .navbar-nav {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-nav ol {
+       position: static;
+    padding: 20px 15px 20px 15px;
+    border-bottom: 1px solid #CCC;
+    }
+
+    .navbar-nav ol li a {
+        color: #777;
+    }
+
+    .navbar-nav ol li {
+    display: table-cell;
+    width: 1%;
+
+}
+
+    .navbar-nav .navIcon {
+        display: block;
+    }
+
+
+    .navbar-nav .navIcon {
+        color: #96C621;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+
+    .navbar-nav .navIcon.icon-arrowsv {
+        left: 16px;
+    }
+
+    .navbar-nav .navIcon.fa-fire {
+       left: 28px;
+    }
+     .pagination {
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+    .rightBox {
+        width: 100%;
+    }
+.rightBox.addRightBox{
+    display: none;
+}
+    .leftBox {
+        width:100%;
+        padding: 40px 0 50px 0;        
+        margin: 0 auto;
+        float: none;
+        
+    }
+   
+    .clearBtn{right: 0}
+   
+
+    .rightBox.addRightBox .rightHtop .htopLeft {
+        padding: 0;
+
+    }
+
+    .btnSit .serchBtn.collapsed{
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        position: static
+    }
+
+
+    .rightBox .rightHtop .htopLeft {
+        width: calc(100% - 24px);
+        padding: 0 0 0 30px;
+    }
+
+    .panelStyle .br-widget a {
+        width: auto;
+        padding: 0 20px 0 0;
+    }
+
+    .pagination>li>a,
+    .pagination>li>span {
+        padding: 6px 12px;
+    }
+
+    .paginationLeft {
+        margin: 0 32px 0 0;
+    }
+
+    .paginationRight {
+        margin: 0 0 0 32px;
+    }
+
+    .footerBox {
+        padding: 30px 0 0 0;
+    }
+
+    .footerLogo {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+
+    .footerList {
+        width: 100%;
+    }
+
+    .footerList > li {
+        width: 50%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        float: left;
+        margin: 0 0 20px 0;
+    }
+
+    .fooerBtn {
+        visibility: visible;
+        position: absolute;
+        right: 15px;
+        top: 8px;
+    }
+
+    .footerBox {
+        position: relative;
+    }
+
+    .footerBox .container {
+        position: relative;
+    }
+
+    #gotop {
+        position: absolute;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+        top: 0;
+    }
+
+    .footerDown {
+        margin: 0;
+    }
+
+    .footerIconTop {
+        display: none;
+    }
+
+    .footerIconDown {
+        display: block;
+    }
+
+    .footerIcon {
+        width: 250px;
+        margin: 0 auto 20px auto;
+    }
+
+    .footerIcon li {
+        display: table-cell;
+        width: 1%;
+        text-align: center;
+    }
+
+    .footerDown {
+        text-align: center;
+    }
+
+    .iFeatureList {
+        width: 50%;
+        float: left;
+        padding: 10px 10px;
+    }
+
+    .indexKeyBox {
+        display: block !important;
+    }
+
+    .indexKeyLeft {
+        width: 100%;
+        float: none;
+        padding: 0
+    }
+
+    .indexKeyRight {
+        width: 100%;
+        float: none;
+        margin: 15px 0 0 0;
+    }
+
+    .indexComList li .indexComblank {
+        display: none;
+    }
+
+    .indexComList li .indexComTxt,
+    .indexComList li:nth-child(odd) .indexComTxt,
+    .indexComList li:nth-child(even) .indexComTxt {
+        width: 100%;
+        float: none;
+    }
+
+    .indexComList {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wra
+    }
+
+    .indexComList li {
+        width: calc(50% - 6px);
+        float: left;
+        border: 1px solid #ddd;
+        overflow: hidden;
+    }
+
+    .indexComList li:nth-child(odd),
+    .indexComList li:nth-child(even) {
+        margin: 3px;
+    }
+
+    .iComPicLeft,
+    .indexComList li:nth-child(odd) .iComPicLeft,
+    .indexComList li:nth-child(even) .iComPicLeft {
+        width: 100%;
+        padding: 15px 15px 0 15px;
+        float: none;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .iComPicLeft h6 {
+        width: calc(100% - 60px);
+        float: right;
+        text-align: left;
+    }
+
+    .iComPicLeft .iComPic {
+        margin: 0;
+        float: left;
+    }
+
+    .iComPicLeft:after {
+        display: none;
+    }
+
+    .iComInfoCentr {
+        width: 100%;
+        border: none;
+        padding: 5px 15px 0 15px;
+        height: 135px;
+    }
+
+    .indexComList li:nth-child(odd) .iComInfoCentr,
+    .indexComList li:nth-child(even) .iComInfoCentr {
+        float: none;
+        margin: 0;
+        text-align: left;
+    }
+
+    .iComInfoCentr:after,
+    .iComInfoCentr:before {
+        display: none;
+    }
+
+    .iComInfoRight {
+        float: left;
+        width: 100%;
+        position: relative;
+        box-shadow: none;
+        height: auto
+    }
+
+    .iComInfoRight:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        z-index: 1;
+        display: block;
+        content: "";
+    }
+
+    .iComInfoRight h2 {
+        text-align: left;
+        color: #fff;
+        font-size: 1em;
+        bottom: 0px;
+        left: 0px;
+        padding: 0 15px;
+    }
+
+    .iComInfoCentr h5 {
+        margin: 10px 0 0 0;
+    }
+
+    .iComInfoCentr h5 span {
+        bottom: 15px;
+    }
+
+    .indexComList li:nth-child(odd) .icomLine .starPint,
+    .indexComList li:nth-child(even) .icomLine .starPint {
+        display: none;
+    }
+
+    .indexComList li:nth-child(even) .icomLine {
+        float: left;
+    }
+
+    .indexComList li .icomLine {
+        margin: 0;
+        position: absolute;
+        z-index: 0;
+        left: 75px;
+        top: -20px;
+    }
+
+    .leftBox.collapse.in .leftBtnBox{
+        background: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px 15px;
+        border-top: 1px solid #DDD;
+        text-align: center;
+
+    }
+
+    .btnSelect {
+max-width: 720px;
+
+    }
+
+
+    footer.addfooterBox{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+}
+
+@media screen and (max-width:640px) {
+    .navbar-brand span {
+        display: none;
+    }
+
+    .pagination>li>a,
+    .pagination>li>span {
+        padding: 4px 9px;
+    }
+
+    .paginationLeft {
+        margin: 0 10px 0 0;
+    }
+
+    .paginationRight {
+        margin: 0 0 0 10px;
+    }
+
+    .paginationBox {
+        margin: 40px 0;
+    }
+
+    .silderItem .silderImg {
+        height: 460px;
+    }
+
+    .silderInfo h1 a {
+        font-size: 1em
+    }
+
+    .silderInfo h5 a {
+        font-size: 1.2em;
+    }
+
+    .indexTitle .iconStyle span {
+        top: -25px;
+    }
+
+    .footerList>li {
+        padding: 0 15px;
+    }
+
+    .indexTitle .titleIA {
+        position: absolute;
+        margin: -42px 0 0 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .iFeatureList {
+        padding: 10px 2px;
+    }
+
+    .featureEvent .iFeatureInfo ul li:nth-child(1) {
+        padding: 0 5px;
+    }
+
+    .iFeatureInfo ul li:nth-child(2) {
+        padding: 0 3px 0 5px;
+    }
+
+    .iFeatureInfo ul li:nth-child(4),
+    .iFeatureInfo ul li:nth-child(3) {
+        display: none;
+    }
+
+    .iFeatureInfo h2 {
+        padding: 0 15px 0 0;
+    }
+
+    .indexBtn em {
+        display: none;
+    }
+
+    .rowC {
+        padding: 0;
+    }
+
+    .indexHotItem {
+        width: calc(50% - 6px);
+        float: left;
+        margin: 3px;
+    }
+
+    .indexHotItem:nth-of-type(1),
+    .indexHotItem:nth-of-type(4) {
+        width: calc(100% - 6px);
+        float: none;
+        overflow: hidden;
+    }
+
+
+
+    .indexHotItem:nth-of-type(1) .inumber,
+    .indexHotItem:nth-of-type(4) .inumber {
+        width: 50px;
+        font-size: 2em;
+    }
+
+    .indexHotItem:nth-of-type(1) .inumber:after,
+    .indexHotItem:nth-of-type(4) .inumber:after {
+        border-width: 28px 50px 0 0;
+    }
+
+    .indexHotItem:nth-of-type(1) .inumber:before,
+    .indexHotItem:nth-of-type(4) .inumber:before {
+        border-width: 0 50px 28px 0;
+    }
+
+    .indexHotItem .indexHotInfo {
+        padding: 10px 0 25px 0;
+
+    }
+    .indexHotItem .indexHotInfo h2{font-size: 1.1em;
+        overflow : hidden;
+text-overflow : ellipsis;
+white-space : nowrap;
+padding: 0 3px 0 0;
+width: 100%;
+    }
+       .indexHotItem:nth-of-type(1) h2,
+    .indexHotItem:nth-of-type(4) h2 {
+        position: absolute;
+        bottom: 15px;
+        left: 0px;
+        color: #fff;
+        text-shadow: 0 0 5px #000;
+        font-size: 1.5em;
+padding: 0 15px;
+        
+    }
+    .indexHotInfo .hotInfoLine,
+ .indexHotInfo .tagList,.indexHotInfo .ihotTalk,.indexHotInfo .ihotBook {
+        display: none;
+    }
+.indexHotItem:nth-of-type(1) .indexHotInfo,
+.indexHotItem:nth-of-type(4) .indexHotInfo{
+    margin: -35px 0 0 0;
+}
+    .hotSilder {
+        overflow: hidden;
+    }
+
+    .indexKeyBig .indexkeyPic li span,
+    .indexkeyPic li span {
+        font-size: 1em;
+        padding: 2px;
+    }
+
+    .indexkeyPic li {
+        border: 1px solid #FFF;
+    }
+
+    .rightHtop ul{
+        padding: 10px 0 0 0;
+        margin: 0 0 0 -30px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+}

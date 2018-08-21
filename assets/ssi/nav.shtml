@@ -1,0 +1,87 @@
+<div class="spH1">
+        <div class="container">
+            <h1>
+    H1標題字</h1>
+        </div>
+    </div>
+    <nav class="navbar navbar-default  navbar-mobile bootsnav on ">
+        <div class="container">
+            <div class="attr-nav">
+                <ul>
+                    <!-- 如果沒有超過99筆 請移除add class -->
+                    <li class="side-menu"><a href="#"><em class="add">99</em><img src="assets/img/frame/p1.jpg" alt="會員登入"></a></li>
+                    <!--  <li class="side-menu dafault"><a href="#"><img src="assets/img/frame/default.svg" alt="會員登入"></a></li> -->
+                </ul>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <a class="navbar-brand" href="hp.htm" title="E排客">
+                    <img src="assets/img/frame/logo.png" alt="E排客">
+                    <span>人氣店排隊預約</span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">
+                    <ol>
+                       
+                        <li><a href="" title="instagram"><span class="icon-instagram-logo"></span></a></li>
+                        <li><a href="" title="google-plus"><span class="fab fa-google-plus-g"></span></a></li>
+                        <li><a href="" title="twitter"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="" title="facebook"><span class="fab fa-facebook-f"></span></a></li>
+                    </ol>
+                    <li class="dropdown">
+                        <!-- 如果沒有下一層  利除dropdown class-->
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="人氣餐廳">人氣餐廳<div class="eng">STORES</div><span class="fas fa-fire navIcon"></span></a>
+                        <ul class="dropdown-menu animated">
+                            <li><a href="#" title="">人氣餐廳一</a></li>
+                            <li><a href="#" title="">人氣餐廳二</a></li>
+                            <li><a href="#" title="">人氣餐廳三</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" title="特別企劃">特別企劃<div class="eng">FEATURES</div><span class="far fa-newspaper navIcon"></span></a>
+                        <ul class="dropdown-menu animated">
+                            <li><a href="#" title="">特別企劃一</a></li>
+                            <li class="active"><a href="#" title="">特別企劃二</a></li>
+                            <li><a href="#" title="">特別企劃三</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="最新消息">最新消息<div class="eng">NEWS</div><span class="icon-soundv navIcon"></span></a>
+                        <ul class="dropdown-menu animated">
+                            <li><a href="#" title="">最新消息一</a></li>
+                            <li><a href="#" title="">最新消息二</a></li>
+                            <li><a href="#" title="">最新消息三</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="side">
+            <a href="#" class="close-side">
+                <sapn class="fa fa-times">
+                    </span>
+            </a>
+            <div class="sideInfo">
+                <div class="sideImg">
+                    <img src="assets/img/frame/p1.jpg" alt="">
+                </div>
+                <!--  <div class="sideImg dafault">
+                    <img src="assets/img/frame/defaultB.svg" alt="">
+                </div> -->
+                <div class="sideN">林曉鈴</div>
+                <div class="sideAdd">abc@abc.com.tw</div>
+                <div class="sideOut"><a href=""><span class="fa fa-sign-out-alt"></span>登出</a></div>
+                <ul>
+                    <li><a href="" title="預約紀錄"><span class="fas fa-desktop"></span>預約紀錄<em>12</em></a></li>
+                    <li><a href="" title="我的收藏"><span class="far fa-heart"></span>我的收藏<em>32</em></a></li>
+                    <!-- 如果沒有超過99筆 請移除add class -->
+                    <li><a href="" title="訊息通知"><span class="far fa-envelope"></span>訊息通知<em class="sp add">99</em></a></li>
+                    <li><a href="" title="會員資料"><span class="far fa-user"></span>會員資料</a></li>
+                    <li><a href="" title="瀏覽紀錄"><span class="icon-history-clock-button"></span>瀏覽紀錄</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

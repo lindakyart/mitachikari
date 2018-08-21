@@ -1,0 +1,81 @@
+   <footer>
+        <div class="footerBox">
+            <a id="gotop"><span class="icon-up-chevron"></span></a>
+            <div class="container">
+                <a data-toggle="collapse" href="#footerBox" title="網站導覽" class="fooerBtn">網站導覽</a>
+                <div class="footerLogo"><a href=""><img src="assets/img/frame/logo.png" alt="E排客"></a></div>
+                <ul class="footerList collapse in" id="footerBox">
+                    <li>
+                        <ul class="footetContent">
+                            <li>Main Menu</li>
+                            <li><a href="" title="人氣餐廳">人氣餐廳</a></li>
+                            <li><a href="" title="特別企劃">特別企劃</a></li>
+                            <li><a href="" title="最新消息">最新消息</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footetContent">
+                            <li>Service Rule</li>
+                            <li><a href="" title="會員規約">會員規約</a></li>
+                            <li><a href="" title="使用規約">使用規約</a></li>
+                            <li><a href="" title="隱私政策">隱私政策</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footetContent">
+                            <li>Company</li>
+                            <li><a href="" title="常見問題">常見問題</a></li>
+                            <li><a href="" title="消息公告">消息公告</a></li>
+                            <li><a href="" title="營運公司">營運公司</a></li>
+                            <li><a href="" title="聯絡我們">聯絡我們</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footetContent">
+                            <li>Connect with Us</li>
+                            <li>
+                                <ol class="footerIcon footerIconTop">
+                                    <li><a href="" title="instagram"><span class="icon-instagram-logo"></span></a></li>
+                                    <li><a href="" title="google-plus"><span class="fab fa-google-plus-g"></span></a></li>
+                                    <li><a href="" title="twitter"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="" title="facebook"><span class="fab fa-facebook-f"></span></a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <div id="fb-root"></div>
+                                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                            </li>
+                            <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/108729620404888171546" data-rel="author"></div>
+                            <li>
+                            </li>
+                            <a class="twitter-follow-button" href="https://twitter.com/TwitterDev" data-show-screen-name="false" data-lang="en">Follow</a>
+                            <li>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <ol class="footerIcon footerIconDown">
+                <li><a href="" title="instagram"><span class="icon-instagram-logo"></span></a></li>
+                <li><a href="" title="google-plus"><span class="fab fa-google-plus-g"></span></a></li>
+                <li><a href="" title="twitter"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="" title="facebook"><span class="fab fa-facebook-f"></span></a></li>
+            </ol>
+            <div class="footerDown">
+                <div class="container">
+                    </span>Copyright © 2018 EPARK, Inc.All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- <pre>
+
+
+  __  ____   _____  _   _ _____ _   _ _____   _____  _    _____        ___    _   _ 
+ |  \/  \ \ / / _ \| | | | ____| | | | ____| |_   _|/ \  |_ _\ \      / / \  | \ | |
+ | |\/| |\ V / | | | | | |  _| | | | |  _|     | | / _ \  | | \ \ /\ / / _ \ |  \| |
+ | |  | | | || |_| | |_| | |___| |_| | |___    | |/ ___ \ | |  \ V  V / ___ \| |\  |
+ |_|  |_| |_| \__\_\\___/|_____|\___/|_____|   |_/_/   \_\___|  \_/\_/_/   \_\_| \_|
+                                                                                    
+
+</pre> -->

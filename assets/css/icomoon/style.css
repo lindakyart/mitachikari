@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5wl4gs');
+  src:  url('fonts/icomoon.eot?5wl4gs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5wl4gs') format('truetype'),
+    url('fonts/icomoon.woff?5wl4gs') format('woff'),
+    url('fonts/icomoon.svg?5wl4gs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menuv:before {
+  content: "\e904";
+}
+.icon-arrowsv:before {
+  content: "\e902";
+}
+.icon-soundv:before {
+  content: "\e903";
+}
+.icon-instagram-logo:before {
+  content: "\e901";
+}
+.icon-history-clock-button:before {
+  content: "\e900";
+}
+.icon-starv:before {
+  content: "\e905";
+}
+.icon-star:before {
+  content: "\e906";
+}
+.icon-tick:before {
+  content: "\e907";
+}
+.icon-menue:before {
+  content: "\e908";
+}
+.icon-babye:before {
+  content: "\e909";
+}
+.icon-arrowe:before {
+  content: "\e90a";
+}
+.icon-clocke:before {
+  content: "\e90b";
+}
+.icon-covere:before {
+  content: "\e90c";
+}
+.icon-dialoge:before {
+  content: "\e90d";
+}
+.icon-glassese:before {
+  content: "\e90e";
+}
+.icon-moneye:before {
+  content: "\e90f";
+}
+.icon-tickete:before {
+  content: "\e910";
+}
+.icon-sofae:before {
+  content: "\e911";
+}
+.icon-storee:before {
+  content: "\e912";
+}
+.icon-timee:before {
+  content: "\e913";
+}
+.icon-school-calendar:before {
+  content: "\e914";
+}
+.icon-wheelchair-access:before {
+  content: "\e915";
+}
+.icon-parking:before {
+  content: "\e916";
+}
+.icon-heart-shape-silhouette:before {
+  content: "\e917";
+}
+.icon-heart-shape-outline:before {
+  content: "\e918";
+}
+.icon-next:before {
+  content: "\e919";
+}
+.icon-fast-forwardleft:before {
+  content: "\e91a";
+}
+.icon-back:before {
+  content: "\e91b";
+}
+.icon-fast-forward:before {
+  content: "\e91c";
+}
+.icon-up-chevron:before {
+  content: "\e91d";
+}
+.icon-down-arrow:before {
+  content: "\e91f";
+}
+.icon-search:before {
+  content: "\e91e";
+}
+.icon-downtext-quotes:before {
+  content: "\e920";
+}
+.icon-toptext-quotes:before {
+  content: "\e921";
+}
+.icon-nextvv:before {
+  content: "\e922";
+}
+.icon-backvv:before {
+  content: "\e923";
+}
